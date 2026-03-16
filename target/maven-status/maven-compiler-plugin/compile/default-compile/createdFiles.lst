@@ -1,5 +1,6 @@
 dao\IUsuarioDAO.class
 com\mycompany\nubulamusicwebaplication\controller\AutenticacionServlet.class
+com\mycompany\nubulamusicwebaplication\controllers\AppListener.class
 com\mycompany\nubulamusicwebaplication\service\UsuarioService.class
 com\mycompany\nubulamusicwebaplication\util\JPAUtil.class
 dao\UsuarioDAO.class
