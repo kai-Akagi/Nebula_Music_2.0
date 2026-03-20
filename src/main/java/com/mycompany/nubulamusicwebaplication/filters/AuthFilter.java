@@ -45,8 +45,9 @@ public class AuthFilter implements Filter {
         
         boolean resourceStaticRequest = path.contains("/assets/") || path.contains("css") || path.contains("img");  
         
+        boolean apiRequest = path.contains("/api/");
         
-        if(loggedIn || loginRequest || resourceStaticRequest || path.endsWith("tyc.jsp")){
+        if(apiRequest || loggedIn || loginRequest || resourceStaticRequest || path.endsWith("tyc.jsp")){
             chain.doFilter(request, response);
         } else {
             res.sendRedirect(req.getContextPath() + "/views/auth/iniciar-sesion.jsp");
