@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author martinbl
  */
-public class AlbumService implements IAbumService {
+public class AlbumService implements IAlbumService {
 
     private final IAlbumDAO albumDAO = new AlbumDAO();
 

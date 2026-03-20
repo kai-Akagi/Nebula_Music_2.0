@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author martinbl
  */
-public interface IAbumService {
+public interface IAlbumService {
     void crearAlbum(Album album);
 
     void actualizarAlbum(Album album, Long usuarioLogueadoId);
