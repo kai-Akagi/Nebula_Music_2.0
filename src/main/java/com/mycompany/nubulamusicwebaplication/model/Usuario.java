@@ -135,4 +135,8 @@ public class Usuario implements Serializable {
     public void setTerminosAceptados(boolean terminosAceptados) {
         this.terminosAceptados = terminosAceptados;
     }
+
+    public void setId(Long id) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
